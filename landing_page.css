@@ -1,0 +1,52 @@
+body{
+  display: grid;
+  grid-template-areas: 
+  "intro intro"
+  "section-1 section-1"
+  "lands-text lands-text"
+  "section-2 section-2"
+  "section-3 section-3"
+  "footer footer";
+  margin: 0;
+  padding: 0;
+}
+.image-intro{
+  background-color: aquamarine;
+  height: 65vh;
+  grid-area: intro;
+}
+.section-1{
+  background-color: bisque;
+  height: 38vh;
+  grid-area: section-1;
+}
+.lands-text{
+  display: flex;
+  background-color: burlywood;
+  height: 85vh;
+  grid-area: lands-text;
+}
+.section-2{
+  background-color: cornflowerblue;
+  height: 38vh;
+  grid-area: section-2;
+}
+.section-3{
+  display: flex;
+  height: 49.5vh;
+  grid-area: section-3;
+}
+.contact{
+  background-color: darkgray;
+  width: 50%;
+}
+.about{
+  background-color: darkkhaki;
+  width: 50%;
+}
+.footer{
+  display: flex;
+  background-color: darkseagreen;
+  height: 15.5vh;
+  grid-area: footer;
+}
